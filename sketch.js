@@ -7,6 +7,7 @@ var box1, pig1;
 var backgroundImg,platform;
 
 function preload() {
+    //background
     backgroundImg = loadImage("sprites/bg.png");
 }
 
@@ -17,6 +18,7 @@ function setup(){
 
 
     ground = new Ground(600,height,1200,20);
+    //adding platform
     platform = new Ground(150, 305, 300, 170);
 
     box1 = new Box(700,320,70,70);
